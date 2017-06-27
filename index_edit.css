@@ -1,0 +1,121 @@
+html, body{
+	margin-left: 0%; 
+	margin-top: 0%; 
+	margin-right:0%;
+	margin-bottom: 0%;
+}
+#com-borda{
+	border: dashed #c0c0c0 1px; 
+}
+#banner-e-conteudo{ 
+	background-image: URL(../img-gif/img/banner-nf.jpg);
+	background-attachment: fixed;
+}
+/*A parte do primeiro banner inteira se encontra aqui*/
+div.div_principal{
+	position: relative; 
+	width:100%; 
+	height:100%;
+}
+div.ContainerPadrao{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+}
+/*
+img#img-logo-nf{
+	background-image: URL(../img-gif/img/logo-nf.png);
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+*/
+div.ContainerMenor {
+	position: absolute; 
+	left: 5%; 
+	top: 8%; 
+	width: 90%; 
+	height:84%; 
+	padding: 0.5%;
+}
+div.ContainerMenus_Opaco{
+	content: '';
+	position: absolute;
+	min-width: 98.5%; 
+	height: 7%; 
+	background-color: white;
+	opacity: 0.2;
+	
+}
+div.ContainerMenus{
+	content: '';
+	position: relative; 
+	min-width: 90%; 
+	height: 7%;
+}
+button.BotaoMenu{
+	position:relative; 
+	top:20%; 
+	left:70%; 
+	width:7%; 
+	height:60%; 
+	border-radius:25px;
+}
+button#btn_dif{
+	margin-left: 0.8%;
+}
+/* */
+
+/* */
+button.BotaoMenu:hover{
+	
+}
+
+a.menu{
+	white-space: nowrap;
+}
+div.ContainerAbaixoMenu{
+	position: relative;
+	min-width: 80%;
+	min-height: 91%;
+	top: 1.3%;
+}
+div.ContainerAbaixoMenu_Opaco{
+	position:absolute;
+	top: 10%;
+	left:0.5%;
+	min-width: 98.7%;
+	min-height: 88.5%;
+	background-color: white;
+	opacity: 0.2;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*--------------------------Continuação 2º Banner---------------------------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+#banner-e-conteudo2{
+	/*background-color: rgb(115, 115, 115);*/
+	/*background-image: URL(../img-gif/img/banner1.jpg);*/
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh; 
+}
+a{
+	text-decoration: none;
+}
+#banner-2{
+	border: solid #c0c0c0 1px;
+	padding: 0.8%;
+}
+.QuadranteBanner2{
+	position:absolute; 
+	width:48.5%;
+	height:48.5%; 
+	border:solid #c0c0c0 1px;
+}
+#quadrante-1{
+}
+#quadrante-2{
+	left: 50.5%;
+}
