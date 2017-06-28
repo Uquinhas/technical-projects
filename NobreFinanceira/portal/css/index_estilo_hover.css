@@ -1,0 +1,13 @@
+#menu ul li.menu-caixa a:hover{
+	background-color: white;
+	color: rgb(243, 125, 1);
+	transition: all 0.5s;
+}
+#menu ul li.menu-caixa a.active:hover{
+	transition: all 0.5s;
+	background-color: white;
+}
+#container-opcoes ul li a:hover {
+	color: rgb(243, 125, 1);
+	text-decoration: underline;
+}

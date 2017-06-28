@@ -1,0 +1,163 @@
+html, body{
+	width: 100%;
+	height: 1000px;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+#topo{
+	position: fixed;
+	width: 100%;
+	height: 180px;
+	background-image: url(../visual/img/bg_header.jpg);
+	background-size: 100% 100%;
+	z-index: 1;
+}
+#container-topo{
+	position: relative;
+	width: 1100px;
+	height: 90%;
+	margin: auto;
+	background-color: transparent;
+}
+#logo{
+	position: relative;
+	width: 125.2px;
+	height: 60%;
+	background: url(../visual/img/logo.png);
+	background-size: 100% 100%;
+	left: 44.1%;
+	top: 6%;
+}
+#container-opcoes ul li{
+	float: right;
+}
+#container-opcoes ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: rgb(126, 159, 179);
+	color: white;
+}
+#container-opcoes ul li a:hover {
+	color: rgb(243, 125, 1);
+	text-decoration: underline;
+}
+#container-opcoes{
+	position: relative;
+	right: 2.5%;
+}
+#menu {
+	top: 20px;
+	position: relative;
+	width: 97%;
+	height: 60px;
+	margin: 0 auto 0 auto;
+}
+#menu ul li a{
+	border-left: solid #746767 1px;
+	border-right: solid #3A3A3A 1px;
+	float: left;
+	height: 50px;
+	width: 24.7%;
+	background-color: rgb(126, 159, 179);
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 800;
+	position: relative;
+	top: 25%;
+	color: white;
+	transition: all 0.5s;
+	
+	display: -webkit-flex;
+  	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+ 	-webkit-justify-content: center;
+ 	justify-content: center;
+}
+#menu ul li a.active {
+	text-decoration: none;
+	color: rgb(243, 125, 1);
+	transition: all 0.5s;
+}
+#menu ul li.menu-caixa a:hover{
+	background-color: white;
+	color: rgb(243, 125, 1);
+	transition: all 0.5s;
+}
+#menu ul li.menu-caixa a.active:hover{
+	transition: all 0.5s;
+	background-color: white;
+}
+/*Agora começa as edições da page*/
+
+
+#container-informacoes{
+	position: relative;
+	top: 250px;
+	width: 1000px;
+	height: 700px;
+	margin: 0px auto 0px auto;
+}
+#botao-container a{
+	position: absolute;
+	right: 0px;
+	border: solid #CCCCCC 1px;
+	width: 135px;
+	height: 25px;
+	background-color:  rgb(126, 159, 179);
+	text-align: center;
+	border-radius: 15px;
+	transition: all 0.5s;
+	
+	font: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#botao-container a:hover{
+	transition: all 0.5s;
+	background-color: white;
+}
+#botao-container a:hover{
+	transition: all 0.5s;
+	color: rgb(243, 125, 1);
+}
+#div-tabela-dados{
+	position: absolute;
+	bottom: 0px;
+	width: 1000px;
+	height: 670px;
+}
+
+#div-tabela-dados tr td{
+	position: relative;
+	margin-right: 20px;
+	width: 350px;
+	height: 20px;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+body p{
+	position: relative;
+	top: 220px;
+	text-align: center;
+	font: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 32px;
+	color: #2F337E;
+}
+.tr-tabela{
+	border: dashed black 1px;
+}
+.td-tabela{
+	border: solid #CCCCCC 1px;
+}
+.td-tabela2{
+	font-size: 26px;
+}
+.tr-tabela2{
+	background-color: #FFFFFF;
+}
